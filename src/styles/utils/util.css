@@ -1,0 +1,31 @@
+.cp {
+    cursor: pointer;
+}
+
+.message-error-form {
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+/* eliminar las botones de disminuir y aumentar */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.container-g-spinner-center{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
