@@ -1,0 +1,53 @@
+.rm-button {
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    height: 56px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 700;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Agrega transición para suavizar el efecto */
+
+    &__disabled {
+        opacity: 0.8;
+    }
+
+    &__enabled {
+        &:hover {
+            cursor: pointer;
+            background-color: #FF1C44; 
+            transform: scale(1.05); 
+        }
+    }
+
+    &__theme {
+        &__primary {
+            background-color: var(--rm-color-primary);
+        }
+
+        &__secondary {
+            background-color: var(--rm-color-secondary);
+        }
+    }
+
+    &__size {
+        &__s {
+            border-radius: 32px;
+            height: 48px;
+        }
+
+        &__m {
+            height: 56px;
+            border-radius: 40px;
+        }
+
+        &__l {
+            height: 64px;
+            border-radius: 40px;
+        }
+    }
+}
