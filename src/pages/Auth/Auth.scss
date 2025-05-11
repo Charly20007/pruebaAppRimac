@@ -1,0 +1,93 @@
+.container-auth {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  &__family {
+      height: 640px;
+      width: 600px;
+      display: none;
+      align-items: center;
+      justify-content: flex-end;
+
+      img {
+          width: 480px;
+          height: 560px;
+      }
+  }
+
+  &__form {
+      margin: 0 auto;
+
+      &__separator {
+          background-color: #CCD1EE;
+          height: 1px;
+          max-width: 331px;
+          margin: 20px auto;
+      }
+
+      &__message {
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: #03050F;
+      }
+
+      &__inputs {
+          padding-top: 20px;
+
+          .termins-conditions {
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 20px;
+              letter-spacing: 0.1px;
+              text-decoration: underline;
+          }
+
+          .container-ca-button {
+              width: 100%;
+          }
+      }
+  }
+}
+
+.form-width {
+  width: 336px;
+}
+
+.caf-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__description {
+      padding-right: 10px;
+      box-sizing: border-box;
+
+      &__dot {
+          width: max-content;
+          height: 20px;
+          border-radius: 4px;
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 700;
+          padding: 2px 8px 2px 8px;
+          box-sizing: border-box;
+          background: linear-gradient(86.01deg, #00F4E2 0%, #00FF7F 100%);
+      }
+
+      &__family {
+          margin-top: 10px;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 36px;
+          letter-spacing: -1px;
+      }
+  }
+
+  img {
+      width: 136px;
+      height: 160px;
+  }
+}
