@@ -1,0 +1,42 @@
+.rm-input { 
+    outline: none;
+    border-radius: 8px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px 8px 16px;
+    box-sizing: border-box;
+
+    &.active {
+        border: 2px solid #5E6488;
+    }
+
+    &.inactive {
+        border: 1px solid #5E6488;
+    }
+
+    &.rmi-error {
+        border: 1px solid var(--rm-color-error);
+    }
+
+    &__label {
+        color: #5E6488;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    &__input {
+        outline: none;
+        border: none;
+        width: 100%;
+        font-size: 16px;
+        box-sizing: border-box;
+        color: #03050F;
+        line-height: 24px;
+        font-weight: 400;
+
+        &.rmi-error {
+            color: var(--rm-color-error);
+        }
+    }
+}
