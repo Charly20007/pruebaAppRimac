@@ -1,0 +1,73 @@
+.header-all {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  &__logo {
+      height: 32px;
+  }
+
+  &__label {
+      color: #03050F;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      &__buy {
+          margin-right: 10px;
+          font-size: 12px;
+          font-weight: 600;
+          display: none;
+      }
+
+      &__icon {
+          font-size: 16px;
+          font-weight: bold;
+          margin-right: 5px;
+          line-height: 1.3;
+      }
+
+      &__number {
+          font-weight: bold;
+          font-size: 16px;
+      }
+  }
+}
+
+@media (min-width: 900px) {
+  .header-all {
+      padding: 0 50px;
+  }
+}
+
+@media (min-width: 500px) {
+  .header-all {
+      height: 64px;
+
+      &__logo {
+          height: 36px;
+      }
+
+      &__label {
+          align-items: center;
+
+          &__buy {
+              display: block;
+          }
+
+          &__icon {
+              font-size: 18px;
+          }
+
+          &__number {
+              font-size: 18px;
+          }
+      }
+  }
+}
