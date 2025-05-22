@@ -1,4 +1,4 @@
-import "./header.scss";
+import "./Header.scss";
 import LogoRimac from "../../assets/img/logo-rimac.png";
 
 const Header: React.FC = () => {
